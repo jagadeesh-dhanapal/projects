@@ -1,4 +1,4 @@
-# Educational Website
+# Educational Event Website
 
 Welcome to the repository for our website built using Bootstrap 5, HTML, CSS, and JavaScript. This website aims to provide a user-friendly platform. Feel free to explore the repository, contribute, and make suggestions to enhance the functionality and content of the website.
 
