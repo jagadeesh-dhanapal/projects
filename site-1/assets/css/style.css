@@ -1,0 +1,820 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Kanit&family=Russo+One&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Poltawski+Nowy:ital@1&display=swap');
+
+
+  * {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .navbar-box {
+    background-color: rgb(4, 4, 71);
+  }
+
+  .navbar .container .navbar-brand img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar-brand img {
+    font-size: 25px;
+    font-weight: 850;
+  }
+
+  .navbar .container .navbar-collapse .nav-item .btn {
+    background-color: rgb(34, 121, 41);
+    border-radius: 30px;
+  }
+
+  #Header-link a {
+    padding: 10px 20px;
+    color: white;
+    border-bottom: 2px solid transparent;
+  }
+
+  #Header-link a:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.667);
+  }
+
+  #Header-link .dropdown .dropdown-item {
+    background: none;
+  }
+
+  /* Hero Page */
+
+  .hero {
+    min-height: 100vh;
+    margin-top: 100px;
+    background: url(../pictures/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .hero .timer #demo {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    color: #fff;
+  }
+
+
+  .hero .container .card {
+    padding-top: 60px;
+  }
+
+  .hero .container .card .card-body p {
+    font-weight: 900;
+    font-size: 100px;
+  }
+
+  .hero .container .card .card-body table {
+    border-top: 3px solid white;
+  }
+
+  .hero .container .card .card-body table tr td {
+    border-right: 3px solid white;
+    padding: 5px 13px;
+  }
+
+  .hero .container .timer .container {
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .container .card {
+    border: none;
+    background: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .hero{
+      max-height: 50vh;
+    }
+    .hero .timer #demo {
+      font-size: 35px;
+      text-align: center;
+    }
+    .hero .container .card .card-body table tr td {
+      font-size: 20px;
+    }
+
+    .hero .container .card .card-body p {
+      font-size: 43px;
+    }
+  }
+
+  /* Records */
+  .record .container {
+    padding-top: 100px;
+  }
+  .record .container .row .col .card .record-discr {
+    font-size: 23px;
+    color: white;
+  }
+
+  /* Records */
+  /* Guest */
+
+  .guest {
+    background-image: url(../pictures/guest-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .guest .container-guest h1 {
+    color: #fff;
+    padding-top: 50px;
+  }
+
+  .guest .container {
+    padding-top: 15px;
+    padding-bottom: 100px;
+  }
+
+  .guest .container .carousel-inner .guest-img img {
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    border-radius: 50%;
+  }
+
+  .guest .container .carousel-inner .card {
+    border: 1px rgb(2, 2, 65);
+    background: #ffffff22;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(2, 2, 65);
+    padding: 10px;
+  }
+
+  .guest .container .card-body {
+    text-align: start;
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* END GUEST */
+
+  /* PLACIBOO ABOUT */
+  .pl-about {
+    background: #000;
+    min-height: 100vh;
+    padding: 2%;
+  }
+
+  .pl-about .card {
+    background-color: transparent;
+    border: 1px solid rgb(68, 202, 146);
+    color: #fff;
+  }
+
+  .card-2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+  }
+
+  .card-1 {
+    padding: 7%;
+    margin-top: 2%;
+    font-size: 30px;
+  }
+
+  .card-2 .card {
+    border: none;
+  }
+
+  .pl-about span {
+    color: rgb(68, 202, 146);
+  }
+
+  .card-2 .text-upper {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .card-2 .inner-card {
+    font-size: 20px;
+  }
+
+  .card-2 .inner-card .card-title {
+    font-size: 30px;
+  }
+
+  /* END PLACIBOO ABOUT */
+
+  /* Business */
+
+  .business-pg {
+    background-color: rgb(68, 202, 146);
+    max-height: 80vh;
+  }
+
+  .business-pg .container h2 {
+    padding-top: 70px;
+    font-weight: 700;
+  }
+
+  .business-pg .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .business-pg .container .btn-busi {
+    display: flex;
+    gap: 30px;
+    margin-top: -100px;
+  }
+  .business-pg .container .btn-busi .btn{
+    border-radius: 0%;
+    border: 3px solid #000;
+    font-weight: bold;
+
+  }
+  /* End Business */
+
+
+  /* Agenda */
+  .agenda .card {
+    background: none;
+    border: none;
+  }
+
+  .timeline {
+    border-left: 1px solid rgb(68, 202, 146);
+    position: relative;
+    list-style: none;
+  }
+
+  .timeline .timeline-item {
+    position: relative;
+    color: #fff;
+  }
+
+  .timeline .timeline-item li {
+    list-style: none;
+  }
+
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+
+  .timeline .timeline-item .btn {
+    height: fit-content;
+  }
+
+  .timeline .timeline-item:after {
+    background-color: rgb(68, 202, 146);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+  .agenda {
+    background-color: #000;
+    padding-bottom: 6%;
+    padding-top: 6%;
+  }
+
+  .agenda .container h3 {
+    margin-bottom: 5%;
+    color: #fff;
+  }
+
+  .container .card .card-footer {
+    background: transparent;
+    border: none;
+  }
+
+  .container .col .card .schedule-agenda {
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #43b247 0%, rgb(31, 237, 79)100%);
+    padding-left: 2%;
+  }
+
+  .container .col .card .schedule-agenda .agenda-btn {
+    background-color: white;
+  }
+
+  .container .col .card .schedule-agenda small {
+    padding: 2%;
+  }
+
+  .agenda .container .btn-down {
+    width: 70px;
+    height: 50px;
+    background: linear-gradient(180deg, #43b247 0%, rgb(31, 237, 79)100%);
+    float: right;
+    color: white;
+  }
+
+
+  /* Event Details */
+
+  .event {
+    background-color: rgb(68, 202, 146);
+    padding-top: 50px;
+  }
+
+  .event .container .row {
+    padding: 5%;
+  }
+
+  .event .container .card {
+    background-color: #fff;
+  }
+
+  .event .container .card .card-body p {
+    font-size: 25px;
+  }
+/* plans */
+.plans{
+  background: #000;
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+.plans .plan-head{
+  color: white;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.plans .col{
+  padding: 0px 30px;
+}
+.plans .card{
+  width: 85%;
+  border-radius: 0%;
+}
+.plans .bg-1{
+  background: rgb(235, 234, 234);
+  min-height: 400px;
+}
+.plans .bg-2{
+  background: #ffc4dd;
+  min-height: 470px;
+}
+.plans .bg-3{
+  background:#38b6ff;
+  min-height: 540px;
+}
+.plans .card .card-title{
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.plans .card .card-title .pc-type{
+  font-size: 15px;
+}
+.plans .card .card-title .rs{
+  font-size: 47px;
+  font-weight: 700;
+}
+.plans .card .card-text{
+  text-align: center;
+}
+.plans .card .card-text .seats{
+  margin: 10px 0px;
+  font-weight: lighter;
+  color: gray;
+}
+.plans .card .progress{
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 0%;
+  padding: 5px;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 14px;
+}
+.plans .card .btn{
+  border-radius: 0%;
+}
+@media screen and (max-width : 600px){
+  .plans .card{
+    width: 100%;
+    height:fit-content;
+  }
+}
+@media screen and (min-width : 760px){
+  .plans .card{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width : 1000px){
+  .plans .card{
+    width: 75%;
+  }
+}
+  /* Footer */
+
+  .footer .container p {
+    color: white;
+  }
+
+  .footer .container .footer-alt {
+    margin-top: 70px;
+  }
+
+  .footer .container .card .card-body ul li {
+    list-style: none;
+  }
+
+  .footer .container .card .card-body ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer .container .card .card-body label {
+    color: white;
+  }
+
+  .footer .container .card nav {
+    padding: 10px;
+  }
+
+  .footer .container .card li {
+    padding: 5px;
+  }
+
+  .footer .container .card .card-title {
+    color: #3a86ff;
+  }
+
+  .footer .container .card .card-body form {
+    padding-top: 20px;
+  }
+
+  .footer .container .card .card-footer a img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer .footer-con {
+    color: #fff;
+    padding: 5px;
+  }
+
+  .footer .footer-con p a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer .footer-con ul li {
+    list-style: none;
+    padding: 5px;
+  }
+
+  /*------------- WE THE PLACIBOO PAGE --------------- */
+
+  /* index section */
+
+  .index {
+    min-height: 60vh;
+    padding-top: 50px;
+  }
+
+  .index .container {
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .index .container .content p span {
+    color: rgb(68, 202, 146);
+    font-size: 30px;
+    padding: 10% 0%;
+    font-size: 110px;
+  }
+
+  .index .container .content p {
+    font-size: 30px;
+    padding: 10% 5%;
+    font-size: 100px;
+  }
+
+  .index .img {
+    float: right;
+    padding-top: 15%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .index .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .index .container .content .notes {
+      font-size: 40px;
+    }
+
+    .index .container .content p span {
+      font-size: 50px;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .index .container .content .notes {
+      font-size: 60px;
+    }
+
+    .index .container .content p span {
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    .index .container .content .notes {
+      font-size: 90px;
+    }
+
+    .index .container .content p span {
+      font-size: 95px;
+    }
+  }
+
+  /* acheive */
+  .acheivement {
+    padding-top: 3%;
+  }
+
+  .achive {
+    background: url(../pictures/achive-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    padding-left: 7%;
+
+  }
+  .achive span {
+    color: rgb(62, 202, 148);
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .achive h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .achive-card .container .card p {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 0px 5px;
+  }
+
+  .achive-card .container .card {
+    border: none;
+    background: none;
+    padding-bottom: 30px;
+  }
+
+  .achive-card .container .card .card-title {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: start;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+
+  /* acheive ends */
+  /* field */
+
+  .field .field-title {
+    font-size: 300%;
+    font-weight: 700;
+    padding: 30px;
+  }
+
+  .field .card .card-title {
+    font-size: 300%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  .field .card .card-subtitle {
+    font-size: 150%;
+  }
+
+  /* field ends */
+
+  /* focus */
+  .focus-field {
+    min-height: 150vh;
+  }
+  .focus-field .focus-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .focus-field h5{
+    color: white;
+  }
+
+  .focus-field .container .row {
+    padding: 50px 0px;
+  }
+  .focus-field .container .row .col .card .card-title{
+    margin-top: 70%;
+    font-size: 43px;
+
+  }
+  .focus-field .container .row .col .card{
+    width: fit-content;
+  }
+
+  /* focus ends */
+
+  /* work flow */
+  .work-flow {
+    background: #000;
+    min-height: 60vh;
+  }
+
+  .work-flow .container {
+    padding-top: 50px;
+    text-align: start;
+    color: white;
+  }
+
+  .work-flow .container h2 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .work-flow .container .content {
+    padding-top: 50px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: auto;
+    padding-bottom: 50px;
+
+  }
+  /* workflow ends */
+
+
+  /* -----------------------Contact Page----------------- */
+
+  .contact{
+    background: #000;
+    color: #fff;
+
+    margin-bottom: 50px;
+    padding-top: 150px;
+  }
+  .contact .container form h4{
+    margin-bottom: -70px;
+    color: rgb(64, 202, 146);
+  }
+  .contact .container form{
+    padding-bottom: 50px;
+  }
+  .contact form table{
+    color: white;
+  }
+  .contact form table tr td{
+    padding: 12px;
+  }
+  .contact form table tr td input{
+    background: none;
+    border-radius: 0%;
+    border: 2px solid #fff;
+    color: #fff;
+
+  }
+  .contact form table tr td select{
+    background: none;
+    border-radius: 0%;
+    border: 2px solid #fff;
+    color: #fff;
+
+  }
+  .contact form table tr td textarea{
+    background: none;
+    border-radius: 0%;
+    border: 2px solid #fff;
+    color: #fff;
+
+  }
+
+  /* Selection */
+
+  .select .container{
+    background: black;
+  }
+  .select .container .card.btn{
+    border: none;
+  }
+
+  /* Register Page */
+
+  
+  .register{
+    background: #000;
+    padding-top: 150px;
+    padding-bottom: 50px;
+
+  }
+  .register .container form h4{
+    margin-bottom: -70px;
+    color: rgb(64, 202, 146);
+  }
+  .register form table{
+    color: white;
+  }
+  .register form table tr td{
+    padding: 12px;
+  }
+  .register form table tr td input{
+    background: none;
+    border-radius: 0%;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .register form table tr td select{
+    background: none;
+    border-radius: 0%;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .register form table tr td textarea{
+    background: none;
+    border-radius: 0%;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+ 
+  /* Payment */
+
+  .payment .container .add-pay form{
+    color: white;
+  }
+  .add-pay .container{
+    color: white;
+  }
+  .add-pay  button{
+    color: #fff;
+  }
+  .add-pay .add-head button{
+    border: 2px solid rgb(64, 202, 146);
+  }
+
+  .add-pay table tr td input{
+    background: none;
+  }
+  .add-pay {
+    color: white;
+  }
+ 
+
+  .payment{
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .payment .container h3{
+    text-align: center;
+  }
+  .payment .container .payment-con{
+    color: white;
+  }
+  .payment .container .payment-con h3{
+    text-align: start;
+  }
+  .payment .container .payment-con button{
+    color: #fff;
+  }
+  .payment .container .payment-con .add-card{
+    display: flex;
+    align-items: end;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .payment .container .payment-con .payment-sec2 .payment-form .form-group table tr td input{
+    border: 1px solid white;
+    background: none;
+  }
+  .payment .container .payment-con .payment-sec2 .payment-form .form-group input{
+    background: none;
+  }

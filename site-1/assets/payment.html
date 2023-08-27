@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Payment Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-box fixed-top" id="Navbar">
+            <div class="container">
+                <div class="logo">
+                    <a class="navbar-brand p-4" href="#"><img src="./pictures/placiboo-logo.png" alt="company logo"></a>
+                </div>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#Header-link" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Header-link">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="we-the-placiboo.html">WE THE PLACIBOO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BUSINESS & RETURN
+                            </a>
+                            <ul class="bg-success dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Service Providers</a></li>
+                                <li><a class="dropdown-item" href="#"> Vendors</a></li>
+                                <li><a class="dropdown-item" href="#"> Sponsors</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="#register">REGISTER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Payment -->
+        <section class="payment">
+            <div class="container">
+                <h3>PAYMENT</h3>
+                <div class="payment-con bg-dark ">
+                    <div class="container p-4 ">
+                        <div class="row">
+                            <div class="col-md-6 m-auto">
+                                <div class="card p-2">
+                                    <div class="card-body">
+                                        <h3 style="color: rgb(64, 202, 146);">Payment</h3>
+                                        <form action="">
+                                            <div class="form-group">
+                                                <label for="">Select a payment method</label><br>
+                                                <input type="radio"> <iconify-icon
+                                                    icon="bi:credit-card-fill"></iconify-icon> Credit / Debit Card
+                                            </div>
+                                        </form>
+                                        <br>
+                                        <p>Saved Cards</p>
+                                        <img src="" alt="Credit card">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card p-2 bg-dark"
+                                    style="border: 2px solid rgb(64, 202, 146); color: white;">
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="color: rgb(64, 202, 146);">Placiboo</h3>
+                                        <div class="service-plan d-flex justify-content-between">
+                                            <p class="card-text">Service provider plan</p>
+                                            <iconify-icon icon="bi:trash-fill"></iconify-icon>
+                                        </div>
+                                        <table class="w-100">
+                                            <tr>
+                                                <td>plan</td>
+                                                <td>Service provider plan</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Duration</td>
+                                                <td>1 Event</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h5>Summary</h5>
+                                                </td>
+                                                <td>
+                                                    <h5>₹1299.00</h5>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion add-pay" id="accordionExample" >
+                        <div class="accordion-item bg-dark">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-dark " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Add New card
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <form action="">
+                                        <table class="m-auto w-75">
+                                            <tr>
+                                                <td>
+                                                    <div class="form-group">
+                                                        <label for="">Name on card</label>
+                                                        <input type="number" name="" id="" class="form-control w-100"
+                                                            placeholder="" aria-describedby="helpId">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-group">
+                                                        <label for="">Card Number</label>
+                                                        <input type="number" name="" id="" class="form-control w-100"
+                                                            placeholder="" aria-describedby="helpId">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="add-footer ">
+                                                        <div class="form-group">
+                                                            <label for="">Expiry Date</label>
+                                                            <div class="form-inline d-flex">
+                                                                <input type="date" name="" id=""
+                                                                    class="form-control formcon-modi" placeholder=""
+                                                                    aria-describedby="helpId"><br>
+    
+                                                                <!--    <span class="p-1">/</span><br>
+    
+                                                            <input type="text" name="" id=""
+                                                                class="form-control formcon-modi" placeholder=""
+                                                                aria-describedby="helpId"> -->
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="">CVV</label>
+                                                            <input type="text" name="" id="" class="form-control w-100"
+                                                                placeholder="" aria-describedby="helpId">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <div class="d-grid">
+                                                        <button class="btn btn-success">Submit</button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container bg-dark">
+                        <div class="card text-left" style="color: white;">
+                            <div class="card-body">
+                                <form action="" class="pay-form">
+                                    <input type="radio"><img src="./pictures/upi.webp" alt=""
+                                        style="width: 70px; height: 30px;"> UPI <br>
+                                    <br>
+                                    <input type="radio"><img src="./pictures/paypal.png" alt=""
+                                        style="width: 50px; height: 30px;"> PayPal <br>
+                                    <br>
+                                    <input type="radio"><img src="./pictures/g-pay.png" alt=""
+                                        style="width: 70px; height: 30px;"> Google Pay <br>
+                                    <br>
+                                    <input type="radio"><img src="./pictures/internet-banking.png" alt=""
+                                        style="width: 60px; height: 30px;"> Net Banking
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <footer class="footer bg-dark">
+            <!-- place footer here -->
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./pictures/placiboo-logo.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">It is a long established fact that a reader will be distracted by
+                                    the readable
+                                    content of a page whan looking at its layout. The point of using lorem
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col footer-alt">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Service</h5>
+                                <ul>
+                                    <li><a href="">Investors</a></li>
+                                    <li><a href="">Sponsors</a></li>
+                                    <li><a href="">Services Providers</a></li>
+                                    <li><a href="">Vendors</a></li>
+                                    <li><a href="">Volunteer's</a></li>
+                                    <li><a href="">NGO's</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col footer-alt">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Company</h5>
+                                <ul>
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">Our Team</a></li>
+                                    <li><a href="">Portfolio</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col footer-alt">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Join a Newsletter</h5>
+                                <div class="container-fluid">
+                                    <form class="d-flex" role="search">
+                                        <!-- <label for="Email" class="form-label">Your Email</label><br>-->
+                                        <input class="form-control me-2" placeholder="Enter Your Email"
+                                            aria-label="Search">
+                                        <button class="btn btn-primary" type="submit">Sucribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href=""><img src="./pictures/instagram-logo.png" alt=""
+                                        style="width: 50px; height: 50px;"></a>
+                                <a href=""><img src="./pictures/logo-twitter.png" alt=""
+                                        style="width: 40px; height: 40px;"></a>
+                                <a href=""><img src="./pictures/Facebook-logo.png" alt=""
+                                        style="width: 60px; height: 40px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: blue; border: 2 px solid blue;">
+                <div class="container footer-con">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-text"><a href="">LM-TalksHello@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <ul class="nav">
+                                        <li class="nav-item"><i class="fa-solid fa-location-dot"></i> 8819 Ohio st.South
+                                            Gate,<br> CA 90280
+                                        </li>
+                                        <li class="nav-item"><i class="fa-solid fa-envelope"></i> LM
+                                            TalksHello@gmail.com</i></li>
+                                        <li class="nav-item"><i class="fa-solid fa-phone"></i> + 123 456 7890</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
